@@ -5,6 +5,7 @@
 #Login
 ![alt tag](https://i.ibb.co/1qXxt4g/Screenshot-2023-07-24-114241.png)
 
-#Install Djaqngo using pip install django
-#To runserver : python manage.py runserver 
-#Database already added 
+# Install Djaqngo using pip install django
+# To runserver : python manage.py runserver 
+# Database already added 
+# Admin user=admin password=admin
