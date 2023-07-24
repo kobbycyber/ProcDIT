@@ -1,8 +1,8 @@
 # ProcDIT Homepage
 ![alt tag](https://i.ibb.co/v4cgHt8/Screenshot-2023-07-24-114136.png)
-#Sign Up 
+# Sign Up 
 ![alt tag](https://i.ibb.co/TgtVxWk/Screenshot-2023-07-24-114208.png)
-#Login
+# Login
 ![alt tag](https://i.ibb.co/1qXxt4g/Screenshot-2023-07-24-114241.png)
 
 # Install Djaqngo using pip install django
