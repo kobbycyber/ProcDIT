@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <title>Blog Template · Bootstrap v5.3</title>
+    <title>Cyber News </title>
     <link href="https://getbootstrap.com/docs/5.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 
      <!-- Favicons -->
@@ -169,10 +169,10 @@
     <header class="border-bottom lh-1 py-3">
         <div class="row flex-nowrap justify-content-between align-items-center">
             <div class="col-4 pt-1">
-                <a class="link-secondary" href="#">Subscribe</a>
+                <a class="link-secondary" href="https://github.com/kobbycyber">Kobbycyber</a>
             </div>
             <div class="col-4 text-center">
-                <a class="blog-header-logo text-body-emphasis text-decoration-none" href="#">Large</a>
+                <a class="blog-header-logo text-body-emphasis text-decoration-none" href="#"><img src="https://cdn-icons-png.flaticon.com/512/737/737804.png" width="50" height="50" style="object-fit: contain;" alt="Logo"></a>
             </div>
             {% if user.is_authenticated %}
               <div class="col-4 d-flex justify-content-end align-items-center rounded">
@@ -195,18 +195,17 @@
 
   <div class="nav-scroller py-1 mb-3 border-bottom">
     <nav class="nav nav-underline justify-content-between">
-      <a class="nav-item nav-link link-body-emphasis active" href="#">World</a>
-      <a class="nav-item nav-link link-body-emphasis" href="#">U.S.</a>
-      <a class="nav-item nav-link link-body-emphasis" href="#">Technology</a>
-      <a class="nav-item nav-link link-body-emphasis" href="#">Design</a>
-      <a class="nav-item nav-link link-body-emphasis" href="#">Culture</a>
-      <a class="nav-item nav-link link-body-emphasis" href="#">Business</a>
-      <a class="nav-item nav-link link-body-emphasis" href="#">Politics</a>
-      <a class="nav-item nav-link link-body-emphasis" href="#">Opinion</a>
-      <a class="nav-item nav-link link-body-emphasis" href="#">Science</a>
-      <a class="nav-item nav-link link-body-emphasis" href="#">Health</a>
-      <a class="nav-item nav-link link-body-emphasis" href="#">Style</a>
-      <a class="nav-item nav-link link-body-emphasis" href="#">Travel</a>
+      <a class="nav-item nav-link link-body-emphasis {% if request.path == '/' %}active{% endif %}" href="/">World</a>
+      <a class="nav-item nav-link link-body-emphasis {% if request.path == '/us' %}active{% endif %}" href="us">U.S.</a>
+      <a class="nav-item nav-link link-body-emphasis {% if request.path == '/tech' %}active{% endif %}" href="tech">Technology</a>
+      <a class="nav-item nav-link link-body-emphasis {% if request.path == '/entertainment' %}active{% endif %}" href="entertainment">Entertainment</a>
+      <a class="nav-item nav-link link-body-emphasis {% if request.path == '/science' %}active{% endif %}" href="science">Science</a>
+      <a class="nav-item nav-link link-body-emphasis {% if request.path == '/sports' %}active{% endif %}" href="sports">Sports</a>
+      <!--<a class="nav-item nav-link link-body-emphasis {% if request.path == '/' %}active{% endif %}" href="#">Opinion</a>
+      <a class="nav-item nav-link link-body-emphasis {% if request.path == '/' %}active{% endif %}" href="#">Science</a>
+      <a class="nav-item nav-link link-body-emphasis {% if request.path == '/' %}active{% endif %}" href="#">Health</a>
+      <a class="nav-item nav-link link-body-emphasis {% if request.path == '/' %}active{% endif %}" href="#">Style</a>
+      <a class="nav-item nav-link link-body-emphasis {% if request.path == '/' %}active{% endif %}" href="#">Travel</a> -->
     </nav>
   </div>
 </div>
@@ -214,7 +213,7 @@
 {% endblock %}
 
 <footer class="py-5 text-center text-body-secondary bg-body-tertiary">
-  <p>Blog template built for <a href="https://getbootstrap.com/">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+  <p>Blog template built for <a href="http://localhost:8000">Kobbycyber</a> by <a href="https://twitter.com/mdo">@CyberKelvin</a>.</p>
   <p> &copy {{ now }} Cyber News</p>
   <p class="mb-0">
     <a href="#">Back to top</a>
