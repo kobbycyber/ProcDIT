@@ -1,5 +1,5 @@
 # ProcDIT Homepage
-![alt tag](https://i.ibb.co/v4cgHt8/Screenshot-2023-07-24-114136.png)
+![alt tag](https://i.ibb.co/svPjrjc/cyber.png)
 # Sign Up 
 ![alt tag](https://i.ibb.co/TgtVxWk/Screenshot-2023-07-24-114208.png)
 # Login
